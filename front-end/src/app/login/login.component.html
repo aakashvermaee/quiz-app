@@ -7,7 +7,11 @@
       </mat-card-title>
       <form  [formGroup]="loginform">
         <mat-card-content>
+<<<<<<< Updated upstream
 
+=======
+          
+>>>>>>> Stashed changes
           <div class="edit-container">
             <mat-form-field>
               <input
@@ -16,6 +20,7 @@
               formControlName="email"
               placeholder="Enter Email Address"
               />
+<<<<<<< Updated upstream
               <mat-error *ngIf="email.touched && email.invalid">
                <mat-error *ngIf="email.errors.required">Email-id is required</mat-error>
                <mat-error *ngIf="email.errors.onlycygrpallowed">Invalid email id</mat-error>
@@ -29,6 +34,24 @@
             matInput
             formControlName="password"
             placeholder="Enter Password"
+=======
+              <mat-error *ngIf="email.touched && email.invalid"> 
+               <mat-error *ngIf="email.errors.required">Email-id is required</mat-error>
+               <mat-error *ngIf="email.errors.onlycygrpallowed">Invalid email id</mat-error>
+               
+             </mat-error>   
+           </mat-form-field>
+         </div>
+
+         
+         <div class="edit-container">
+          <mat-form-field>
+            <input 
+            type="password"
+            matInput 
+            formControlName="password"
+            placeholder="Enter Password" 
+>>>>>>> Stashed changes
             />
             <mat-error *ngIf="password.touched && password.invalid">
               <mat-error *ngIf="password.errors.required">
@@ -39,12 +62,27 @@
       --></mat-error>
     </mat-form-field>
   </div>
+<<<<<<< Updated upstream
   <div class="button-row">
     <button mat-raised-button type="submit" (click)="submit(loginForm)" class="btn-orng">Login</button>
   </div>
    </mat-card-content>
+=======
+  
+  
+  <div class="button-row">
+    <button mat-raised-button type="submit" (click)="submit(loginForm)" color="primary">Login</button>
+  </div>
+   </mat-card-content>
+
+
+>>>>>>> Stashed changes
 </form>
 </mat-card>
 </div>
 <div class="col-md-3"></div>
+<<<<<<< Updated upstream
 </div>
+=======
+</div>
+>>>>>>> Stashed changes
