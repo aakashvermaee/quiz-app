@@ -39,4 +39,8 @@ var user = db.Schema({
 })
 
 
+<<<<<<< Updated upstream
+module.exports = db.model("User", user)
+=======
 module.exports = db.model('User', user)
+>>>>>>> Stashed changes
