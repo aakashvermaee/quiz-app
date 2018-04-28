@@ -12,7 +12,7 @@ var round = db.Schema({
             count: Number
         }],
     weightage: {
-        type: Date,
+        type: Number,
         default: new Date(),
     },
      type: {
