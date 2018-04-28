@@ -11,9 +11,8 @@ var round = db.Schema({
             ref: 'Category',
             count: Number
         }],
-
     weightage: {
-        type: Number,
+        type: Date,
         default: new Date(),
     },
      type: {
